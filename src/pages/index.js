@@ -40,7 +40,7 @@ const IndexPage=()=>{
   if(loading){
     return(
       <div className={styles.container}>
-        <h1>loading...</h1>
+        <h1>Loading...</h1>
       </div>
     )
   }
