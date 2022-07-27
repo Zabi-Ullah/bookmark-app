@@ -1,0 +1,27 @@
+.container{
+    width: 500px;
+    min-height: 500px;
+    margin: auto;
+    box-shadow: 1px 1px 5px 0.1px;
+    text-align: center;
+    padding: 20px;
+}
+button{
+    margin-top: 20px;
+    background-color: rgb(28, 179, 28);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+input{
+    padding: 15px 30;
+    margin-top: 5px;
+    font-size: 20px;
+}
+label{
+    font-size: 20px;
+}
+table{
+    border: 1px solid rgb(28, 179, 28);;
+}
