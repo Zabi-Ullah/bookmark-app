@@ -31,7 +31,8 @@ const IndexPage=()=>{
         variables:{
           title:title.value,
           url:url.value
-        }
+        },
+        refetchQueries:[{query:GETBOOKMARK}]
       })
     }
     title.value=""
